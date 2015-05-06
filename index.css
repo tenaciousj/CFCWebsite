@@ -1,4 +1,9 @@
 .banner {
 	background-color:#4F2E8A;
-	margin:-2px -2px 0px -2px;
+	height: 125px;
+	margin-top: 0px;
+	font-family: "Arial";
+	font-size: 50px;
+	color: white;
+	text-align: left;
 }
