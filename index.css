@@ -1,26 +1,42 @@
-.banner {
+#banner {
 	
-	height: 125px;
-	margin-top: 0px;
+	height: 140px;
 	font-family: "Helvetica";
 	font-size: 50px;
 	color: white;
 	text-transform: uppercase;
-	
-	background-color: #4B0082;
+	background-color: #43245b;
 	background-size: 100px;
 
-
 }
-p {
-    left: 650px;
-    top: 20px;
+
+#banner .name {
+    left: 50%;
+    top: 35px;
     position: relative;
 }
 
-#content-table {
-	background-color: transparent;
-	color: black;
-	font-family: "Helvetica";
-	font-size: 20px;
+.logo {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 200px;
+	height: 140px;
 }
+
+a {
+	color: black;
+}
+
+li {
+	display: inline;
+	color: black;
+	padding-top: 5px;
+	padding-left: 175px;
+	font-size: 20px;
+	font-family: "Helvetica";
+	float: left;
+	text-transform: uppercase;
+}
+
+
