@@ -1,42 +1,44 @@
 #banner {
 	
-	height: 140px;
-	font-family: "Helvetica";
-	font-size: 50px;
-	color: white;
-	text-transform: uppercase;
-	background-color: #43245b;
-	background-size: 100px;
-
-}
-
-#banner .name {
-    left: 50%;
-    top: 35px;
-    position: relative;
-}
-
-.logo {
-	left: 0px;
-	top: 0px;
+	background-color: blue;
 	position: absolute;
-	width: 200px;
-	height: 140px;
+	left: -2px;
+	top: -6px;
+	width: 1281px;
+	height: 136px;
+	z-index: 2;
+
 }
+
+#banner .nulink img {
+	position: absolute;
+}
+
 
 a {
 	color: black;
 }
 
-li {
-	display: inline;
-	color: black;
-	padding-top: 5px;
+
+#nav li {
+	height: 30px;
+	display: inline-block;
+	position: relative;
+
+	padding-top: 133px;
 	padding-left: 175px;
+
 	font-size: 20px;
 	font-family: "Helvetica";
-	float: left;
 	text-transform: uppercase;
+
+	float: top;
+	
 }
+
+
+
+
+
 
 
