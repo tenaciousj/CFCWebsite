@@ -4,14 +4,22 @@
 
 a {
   text-decoration: none;
-  color: #fff;
-  background: #1abc9c;
+  color: white;
   padding: 10px;
   border-radius: 3px;
 }
 
+a:hover {
+	text-decoration: none;
+	color: #9C8AA5;
+}
+
+p {
+	color: white;
+}
+
 .splash-container {
-    background: #3D0052;
+    background: #421C52;
     z-index: -1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -35,7 +43,7 @@ a {
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     border: 3px solid white;
