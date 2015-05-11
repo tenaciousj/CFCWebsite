@@ -117,7 +117,7 @@ a.pure-button-primary {
     font-size: 120%;
 }
 
-.home-menu .pure-menu-selected a {
+.home-menu .pure-menu-item a {
     color: white;
 }
 
