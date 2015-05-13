@@ -72,15 +72,14 @@ label {
  */
 .pure-button {
     background-color: #1f8dd6;
-    color: white;
-    padding: 0.5em 2em;
+    color: white;    
     border-radius: 5px;
 }
 
 
-a:hover {
+a.pure-button-primary:hover {
 	text-decoration: none;
-	color: #9C8AA5;
+	color: #D1B2D1;
 }
 
 a.pure-button-primary {
@@ -151,7 +150,7 @@ a.pure-button-primary {
 
 .splash {
     /* absolute center .splash within .splash-container */
-    width: 80%;
+    width: 80app%;
     height: 50%;
     margin: auto;
     position: absolute;
@@ -200,6 +199,7 @@ a.pure-button-primary {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 2em 0 1em;
+    color: white;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
@@ -240,6 +240,14 @@ a.pure-button-primary {
     /* We want to give the content area some more padding */
     .content {
         padding: 1em;
+        
+
+    }
+    .content #form{
+        background:url("images/students.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
     }
 
     /* We can align the menu header to the left, but float the
