@@ -99,10 +99,9 @@ a.pure-button-primary {
     padding: 0.5em;
     text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    background: #421C52;
 }
-.home-menu {
-    background: black;
-}
+
 .pure-menu.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
     border-bottom: none;
@@ -130,14 +129,16 @@ a.pure-button-primary {
     color: #AECFE5;
 }
 
-
 /*
  * -- SPLASH STYLES --
  * This is the blue top section that appears on the page.
  */
 
 .splash-container {
-    background: #421C52;
+    background-image: url(http://www.hdwallpapersnew.net/wp-content/uploads/2015/01/awesome-hd-new-wallpaper-of-chicago-skyline.jpg);
+    background-size: 2400px 1600px;
+    background-repeat: no-repeat;*/
+    /*background: #421C52;*/
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -161,12 +162,12 @@ a.pure-button-primary {
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 20px;
+    font-size: 100px;
     font-weight: bold;
     color: white;
-    border: 3px solid white;
-    padding: 0.5em;
-    font-weight: 100;
+    border: 6px solid white;
+    padding: 1em;
+    font-weight: 1000;
     border-radius: 5px;
     line-height: 1em;
 }
